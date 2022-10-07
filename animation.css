@@ -1,0 +1,165 @@
+.nav-item .nav-link:hover{
+  color: rgb(250, 50, 0);
+}
+
+.navbar-nav .nav-link.active:hover{
+  color: red;
+}
+.testimotionals .card{
+  
+    position:relative;
+    overflow:hidden;
+    width:350px;
+    margin:0 auto;
+    margin-top: 4px;
+    background:white;
+    /* padding:10px; */
+    box-sizing:border-box;
+    text-align:center;
+    box-shadow:0 10px 40px rgba(0,0,0,.5)
+  }
+  .btn:hover{
+    background:linear-gradient(to left,red,black);
+
+  }
+  .testimotionals .card .layer {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left,red,black
+
+    );
+    transition:.5s;
+
+  }
+  .about-img
+  .testimotionals1 .card{
+  
+    position:relative;
+    overflow:hidden;
+    width:350px;
+    margin:0 auto;
+    margin-top: 4px;
+    background: white;
+    /* padding:10px; */
+    box-sizing:border-box;
+    text-align:center;
+    box-shadow:0 10px 40px rgba(155, 56, 56, 0.5)
+  }
+  .testimotionals1 .card .layer {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    /* background-color:	;	 */
+    background:linear-gradient(to left,orange,#FFD700,orange
+    );
+    transition:.5s;
+
+  }
+  .testimotionals1 .card .content {
+    z-index:2; 
+    position:relative;
+  }
+  
+  .testimotionals1 .card:hover  .layer{
+    top:0;
+  }
+  
+  .testimotionals1 .card .content p {
+    font-size:14px;
+    line-height:24px;
+    color:white
+    
+  }
+  .testimotionals1 .card .content .image {
+    width:100px; height:100px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    /* border: 4px solid white; */
+    /* box-shadow: 0 10px 40px rgba(0,0,0,0.5); */
+    
+  }
+  
+  .testimotionals1 .card .content .details h2 {
+    text-transform: uppercase;
+  font-size:18px;
+  color:white;
+  }
+  .testimotionals1 .card .content .details h2 span {
+  font-size:18px;
+  color:purple;
+    transition:0.5s;
+  }
+  .testimotionals1 .card:hover .content .details h2 span {
+    color:white;
+    position:relative;
+  }
+  .btn1{
+    background: yellow;
+  }
+  
+
+  
+  .testimotionals .card .content {
+    z-index:2; 
+    position:relative;
+  }
+  
+  .testimotionals .card:hover  .layer{
+    top:0;
+  }
+  
+  .testimotionals .card .content p {
+    font-size:14px;
+    line-height:24px;
+    color:#fff;
+    
+  }
+  .testimotionals .card .content .image {
+    width:100px; height:100px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    /* border: 4px solid white; */
+    /* box-shadow: 0 10px 40px rgba(0,0,0,0.5); */
+    
+  }
+  
+  .testimotionals .card .content .details h2 {
+    text-transform: uppercase;
+  font-size:18px;
+  color:white;
+  }
+  .testimotionals .card .content .details h2 span {
+  font-size:18px;
+  color:purple;
+    transition:1s;
+  }
+  .testimotionals .card:hover .content .details h2 span {
+    color:white;
+    position:relative;
+  }
+
+
+/*Image */
+.about-img {
+    overflow: hidden;
+    border-radius: 12px;
+ box-shadow:0 10px 40px rgba(86, 10, 10, 0.7);
+}
+
+.about-img img{
+ transition: transform 2s;
+ 
+}
+.about-img  :hover{
+         transform: scale(1.4);
+         z-index: 1;
+}

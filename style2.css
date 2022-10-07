@@ -1,0 +1,274 @@
+* {
+  font-family: 'Zen Kurenaido', sans-serif;
+
+}
+
+body {
+  background: f1fbff;
+}
+
+.section-padding {
+  padding: 40px 0;
+  text-transform: uppercase;
+}
+
+.carousel-caption {
+  bottom: 210px;
+  z-index: 2;
+
+  position: absolute;
+  right: 55%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 70px;
+}
+
+
+.text-bold {
+  font-weight: bold;
+}
+
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-brand {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+}
+
+.nav-item .nav-link :focus,
+.nav-item.nav-link:hover {
+  color: red;
+}
+
+.nav-item .nav-link a:focus,
+.nav-item.nav-link a:hover {
+  color: red;
+}
+
+
+.section-header strong h1{
+  text-transform: uppercase;
+}
+
+.about-text p{
+  font-size: 60px;
+}
+
+.container .about-text .p{
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+.services .card-body {
+  font-size: 30px;
+}
+
+.myheigth {
+  height: 37vh;
+  /* width: 100vh; */
+}
+
+/* ****************table********************** */
+.tbl {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/****** Responsive css ********/
+@media only sreen and (min-width:768px) {
+  .carousel-caption {
+    bottom: 370px;
+
+  }
+
+  .carousel-caption p {
+    width: 100%;
+  }
+
+  /* .myheigth{
+          width: 107vh;
+        }
+        .card-body{
+          margin: 4px ;
+        } */
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .carousel-caption {
+    bottom: 125px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+
+  .myheigth {
+    width: 70.5vh
+  }
+
+  .mar {
+    margin-top: 4px;
+  }
+
+  .about-img {
+    margin-left: 50px;
+    margin-right: 30px;
+
+  }
+
+  .about-text {
+    padding-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .section-header {
+    margin-left: 15px;
+  }
+
+}
+
+
+
+
+@media only sreen and (min-width:350px) {}
+
+@media only screen and (max-width: 450px) {
+  .txt {
+    font-size: 40px;
+  }
+
+  .about-text p {
+    font-size: 20;
+  }
+
+  #Home p {
+    font-size: 40px;
+  }
+
+  #Home {
+    width: 124vh;
+  }
+
+  #About {
+    align-items: center;
+    width: 120vh;
+  }
+
+  #team {
+    width: 120vh;
+  }
+
+  #PerformingArt {
+    width: 110vh;
+  }
+
+  #Opportunities {
+    width: 120vh;
+  }
+
+  #Contribute {
+    width: 120vh;
+  }
+
+  #Media {
+    width: 120vh;
+
+  }
+
+  #Contact {
+    width: 130vh;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .carousel-caption {
+    bottom: 125px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+
+  .testimotionals {
+    size: 50rem;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+
+  .myheigth {
+    width: 70.5vh
+  }
+
+  .mar {
+    margin-top: 4px;
+  }
+
+  .about-img {
+    margin-left: 50px;
+    margin-right: 30px;
+
+  }
+
+  .about-text {
+
+    padding-top: 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+
+  .section-header {
+    margin-left: 15px;
+  }
+
+}

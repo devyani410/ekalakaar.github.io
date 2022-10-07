@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User profile</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animation.css">
+  <link rel="stylesheet" href="new.css">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fruktur&family=Irish+Grover&family=Lobster&family=Yesteryear&family=Zen+Kurenaido&display=swap"
+    rel="stylesheet">
+
+
+
+
+  <!-- <link rel="stylesheet" href="css/style.css">  -->
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" class="bg-light">
+  <nav class="navbar bg-light fixed-top" style="background-color: white;">
+    <div class="container-fluid">
+      <a class="navbar-brand " style="margin-left: 70px;" href="index.html">
+        <Span class="text-danger text"> <strong>ekala</strong></Span>kaar
+      </a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search Opportunies" aria-label="Search">
+        <button class="btn btn-outline-danger" type="submit">Search</button>
+      </form>
+
+    </div>
+  </nav>
+  <section class="section-padding text-dark mt-4">
+    <div class=" carousel-inner  absolute">
+      <img class="w-100" src="img/user-bg2.png" style="height:40vh" alt="">
+    </div>
+
+    <div> <img src="img/abt1.jpg" style="width:40vh" alt="" class="img-fluid rounded-circle my-img"></div>
+    <div class="row">
+
+      <div class="col-4 " style="margin-left:9% ;">
+        <h1 class="my-text">Hello User! </h1>
+        <p>Classical dancer <span> <i class="bi bi-bell-fill text-danger"></i></span></p>
+        <button class="btn btn-outline-danger mt-4" type="submit">Download your profile</button> <span><button
+            class="btn btn-danger mt-4" type="submit">Create Alert</button> </span>
+      </div>
+      <div class="col-6 text-end">
+        <h6><i class="bi bi-patch-check-fill text-danger"></i> Email Verification</h6>
+        <h6><i class="bi bi-patch-check text-danger"></i> Mobile Verification</h6>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <section class="section-padding">
+
+    <div class="row">
+      <div class="col-8 ml4">
+        <div class="container">
+          <div class="card ">
+            <div class="card-header text-center text-danger " style="font-weight:bold">
+
+              YOUR INFORMATION
+            </div>
+            <div class="row justify-content-start">
+              <div class="col-6" style="margin:2% ;">
+                <input type="range" class="form-range " value="60" id="customRange1" disabled>
+              </div>
+              <div class="col-4 text-end" style="margin:2%">
+                <a href="" style="color: black;
+          text-decoration: none;"><i class="bi bi-pen-fill "></i> </a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <form action="" method="post" class="row g-3 needs-validation" novalidate>
+                <div class="row">
+                  <div class="col-4">
+                    <label for="validationCustom01" class="form-label">First name</label>
+                    <input type="text" class="form-control" name="firstname" value="first_name" disabled>
+                  </div>
+                  <div class="col-4 ml4">
+                    <label for="validationCustom02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" name="lastname" value="last_name" disabled>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <label for="validationCustom02" class="form-label">Phone number</label>
+                    <input type="number" class="form-control" name="phone" value=9787894787 disabled>
+                  </div>
+                  <div class="col-4 ml4">
+                    <label for="validationCustomUsername" class="form-label">Email</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                      <input type="text" class="form-control" name="email" aria-describedby="inputGroupPrepend"
+                        value="xyz1245@gmail.com" disabled>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <label for="validationCustom02" class="form-label">Age</label>
+                    <input type="number" class="form-control" name="age" value=24 disabled>
+                  </div>
+                  <div class="col-2 ml4">
+                    <label for="validationCustom04" class="form-label">Gender</label>
+                    <input type="text" class="form-control" name="gender" value="Male" disabled>
+                    <div class="invalid-feedback">
+                      Please select a Gender.
+                    </div>
+                  </div>
+                  <div class="col-4 ml4">
+                    <label for="validationCustom04" class="form-label">Caste</label>
+                    <input type="text" class="form-control" name="Caste" value="Obc" disabled>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <label for="validationCustom03" class="form-label">Religion</label>
+                    <input type="text" class="form-control" name="Religion" value="Hindu" disabled>
+                  </div>
+                  <div class="col-2 ml4">
+                    <label for="validationCustom05" class="form-label">Height</label>
+                    <input type="number" class="form-control" name="Height" value="4.5" disabled>
+                  </div>
+                  <div class="col-1 ml4">
+                    <label for="validationCustom05" class="form-label">Weight</label>
+                    <input type="number" class="form-control" name="weight" value="45" disabled>
+                  </div>
+                  <div class="col-2 ml4">
+                    <label for="validationCustom05" class="form-label">Language</label>
+                    <input type="text" class="form-control" name="language" value="hindi" disabled>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4"> <label for="validationCustom03" class="form-label">Education</label>
+                    <input type="text" class="form-control" name="education" value="BA Art" disabled>
+                  </div>
+                  <div class="col-4 ml4">
+                    <label for="validationCustom05" class="form-label">Skills</label>
+                    <input type="text" class="form-control" name="skils" value="Dance" disabled>
+                  </div>
+                  <div class="col-2 ml4">
+                    <label for="validationCustom05" class="form-label">Experience</label>
+                    <input type="number" class="form-control" name="experience" value="3" disabled>
+                  </div>
+                </div>
+
+
+
+                <div class="row mt-4">
+                  <div class="col-6">
+                    <label for="validationCustom05" class="form-label">Url for any video link (Social Media link such as
+                      YouTube/ Insta/ Facebook
+                    </label>
+                    <input type="text" class="form-control" name="url" id="validationCustom05" value="http://hkjhk.com"
+                      disabled>
+                  </div>
+                  <div class="mb-3 col-8">
+                    <label for="formFile" class="form-label">Upload your resume </label>
+                    <input class="form-control" type="file" name="resume" value="img/r2.jpg" id="formFile" disabled>
+                  </div>
+                </div>
+              </form>
+              <a href="#" class="btn btn-danger">Edit your profile</a>
+            </div>
+            <div class="card-footer text-muted">
+              last changes 2 days ago
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="card-header my-text text-center">
+              Your Shedule
+            </div>
+            <div class="row justify-content-start">
+              <div class="col-6" style="margin:2% ;">
+                Update Your Shedule
+              </div>
+              <div class="col-4 text-end" style="margin:2%">
+
+                <a href="" style="color: black;
+             text-decoration: none;"><i class="bi bi-pen-fill "></i> </a>
+              </div>
+            </div>
+            <div class="card-body">
+             
+                <form class="d-flex" role="Add">
+                  
+                  <input type="date" class="form-control" id="birthday" name="Shedule">
+                  <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+               <div class="col-8 card mt-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum totam architecto rem voluptate nulla impedit possimus. Eius autem labore assumenda eligendi, deserunt quas fuga rerum nulla dicta earum, vel quidem.</p>
+               </div>
+             
+                
+
+
+             
+            </div>
+
+          </div>
+        </div>
+        <div class="container mt-4">
+          <div class="card ">
+              <card class="card-title bg-dark my-text text-white text-center">
+                <h1>Our Courses</h1>
+              </card>
+              <div class="card-body">
+              <div class="card-title text-start my-text text-danger ml4">
+                <h4>Join for free</h4>
+      
+              </div>
+              <div class="card-text">
+                <div class="row mt-4">
+                  <div class="col-3  ml4">
+                    <img src="img/ab11.jpg" class="img-fluid  img" width="120vh" alt="...">
+                  </div>
+                  <div class="col-3  ml4">
+                    <img src="img/ab11.jpg" class="img-fluid  img" width="120vh" alt="...">
+                  </div>
+                  <div class="col-3  ml4">
+                    <img src="img/ab11.jpg" class="img-fluid  img" width="120vh" alt="...">
+                  </div>
+                  
+                  
+                </div>
+                <div class="row mt-4">
+                  <div class="col-3  ml4">
+                    <img src="img/ab11.jpg" class="img-fluid  img" width="120vh" alt="...">
+                  </div>
+                  <div class="col-3  ml4">
+                    <img src="img/ab11.jpg" class="img-fluid  img" width="120vh" alt="...">
+                  </div>
+                  <div class="col-3  ml4">
+                    <img src="img/ab11.jpg" class="img-fluid  img" width="120vh" alt="...">
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-3 justify-content-center">
+          <div class="card  mb-3" style="max-width: 25rem;">
+            <div class="card-header">Join Our Community</div>
+            <div class="card-body">
+              <div class="card-title">
+                <form class="d-flex" role="search">
+
+                  <select class="form-select">
+                    <option selected>...</option>
+                    <option value="1">Music</option>
+                    <option value="2">Dance</option>
+                    <option value="3">Actress</option>
+                    <option value="4">Child Artist</option>
+                    <option value="5">Other</option>
+                  </select>
+                  <button class="btn btn-danger ml4" type="submit">Add</button>
+                </form>
+              </div>
+              <p class="card-text">
+                <button class="btn btn-dark" disabled>Music</button>
+                <button class="btn btn-dark" disabled>Dances</button>
+              </p>
+            </div>
+          </div>
+          <div class="card " style="width: 25rem;">
+            <div class="card-header text-center">
+              Our Recruiter
+            </div>
+            <div class="card-body bg-secondary">
+              <div class="row justify-content-start">
+                <div class="col-3">
+                  <img src="img/ab11.jpg" class="img-fluid rounded-circle" width="90vh" alt="...">
+                </div>
+                <div class="col-6 text-center">
+                  <p class="my-text">Recruiter name <br> Hiring manager</p>
+                  <div>
+                    <span> <i class="bi bi-chat-text-fill"></i><i class="bi bi-telephone-inbound-fill ml4"></i> <button
+                        class="btn btn-danger ml4">follow</button> </span>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row justify-content-start ">
+                <div class="col-3">
+                  <img src="img/ab13.jpg" class="img-fluid rounded-circle" width="90vh" alt="...">
+                </div>
+                <div class="col-6 text-center">
+                  <p class="my-text">Recruiter name <br> Hiring manager</p>
+                  <div>
+                    <span> <i class="bi bi-chat-text-fill"></i><i class="bi bi-telephone-inbound-fill ml4"></i> <button
+                        class="btn btn-danger ml4">follow</button> </span>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row justify-content-start ">
+                <div class="col-3">
+                  <img src="img/ab12.jpg" class="img-fluid rounded-circle" width="90vh" alt="...">
+                </div>
+                <div class="col-6  text-center">
+                  <p class="my-text">Recruiter name <br> Hiring manager</p>
+                  <div>
+                    <span> <i class="bi bi-chat-text-fill"></i><i class="bi bi-telephone-inbound-fill ml4"></i> <button
+                        class="btn btn-danger ml4">follow</button> </span>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row justify-content-start ">
+                <div class="col-3">
+                  <img src="img/ab11.jpg" class="img-fluid rounded-circle" width="90vh" alt="...">
+                </div>
+                <div class="col-6 text-center">
+                  <p class="my-text">Recruiter name <br> Hiring manager</p>
+                  <div>
+                    <span> <i class="bi bi-chat-text-fill"></i><i class="bi bi-telephone-inbound-fill ml4"></i> <button
+                        class="btn btn-danger ml4">follow</button> </span>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+            </div>
+
+          </div>
+          <div class="card mt-4" style="width: 25rem;">
+            <div class="card-header text-center my-text">
+              Follow Events
+            </div>
+            <div class="card-body ">
+              <div class="row justify-content-center">
+                <div class="col-3">
+                  <img src="img/bg/bg (3).jpg" class="img-fluid rounded-circle" width="100vh" alt="...">
+                </div>
+                <div class="col-6 text-start">
+                  <p class="my-text h3">Music || Anand Mahotsav</p>
+                  <p class="text-muted">upcoming ||12/02/22||Mumbai <i class="bi bi-back"></i> Participate Now</p>
+
+                  <div>
+                    <span> <button class="btn btn-outline-danger ml4">Get More Information</button> </span>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row justify-content-center mt-4">
+                <div class="col-6 text-start">
+                  <p class="my-text h3">Dance || Vihangam</p>
+                  <p class="text-muted">upcoming ||12/02/22||Mumbai <i class="bi bi-back"></i> Participate Now</p>
+
+                  <div>
+                    <span> <button class="btn btn-outline-danger ml4">Get More Information</button> </span>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <img src="img/r6.jpg" class="img-fluid rounded-circle" width="100vh" alt="...">
+                </div>
+
+
+              </div>
+              <div class="row justify-content-center mt-4">
+                <div class="col-3">
+                  <img src="img/bg/bg (3).jpg" class="img-fluid rounded-circle" width="100vh" alt="...">
+                </div>
+                <div class="col-6 text-start">
+                  <p class="my-text h3">Music || Anand Mahotsav</p>
+                  <p class="text-muted">upcoming ||12/02/22||Mumbai <i class="bi bi-back"></i> Participate Now</p>
+
+                  <div>
+                    <span> <button class="btn btn-outline-danger ml4">Get More Information</button> </span>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  <section class="section-padding">
+   
+  </section>
+
+  <footer id="Contact" class="bg-dark" style="padding-bottom:50px;">
+    <div class="container">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="text-white">
+            <li class="bi mt-4 bi-envelope mx-1"> contact@eKalakaar.com </li>
+            <li class="bi mt-4 bi-globe  mx-1"> eKalakaar.com Team </li>
+            <li class="bi mt-4 bi-telephone-fill  mx-1"> 07701872112 </li>
+            <li class="bi mt-4 bi-geo-alt-fill  mx-1"> New Delhi I Mumbai I Bhubaneswar (Odisha) </li>
+          </div>
+          </div>
+          </div>
+          <div class="row text-center">
+            <h2 class="text-white"><span class="text-danger">ekala</span>kar</h2>
+            <p class="soicals mt-4" style="letter-spacing: 15px;">
+              <a href="https://www.linkedin.com/company/ekalakaaropportunies"> <i
+                  class="bi bi-linkedin text-white mx-1"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100084854050118"><i
+                    class="bi bi-facebook text-danger mx-1"></i></a>
+              <a href="https://www.instagram.com/ekalakaar/"><i class="bi bi-instagram text-white mx-1"></i></a>
+             
+          </div>
+
+          
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
