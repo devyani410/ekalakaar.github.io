@@ -19,7 +19,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Fruktur&family=Irish+Grover&family=Lobster&family=Yesteryear&family=Zen+Kurenaido&display=swap"
     rel="stylesheet">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 
 
@@ -258,7 +258,27 @@
       </div>
 
         <div class="col-3 justify-content-center">
-          <div class="card  mb-3" style="max-width: 25rem;">
+          <div class="card">
+            <div class="header">
+              <div class="box">
+                <div class="card-header text-danger text-center" style="font-weight: bold;">Genrate QR code</div>
+                <hr>
+                <div class="text-center justify-content-center">
+                <div class="sqrcode justify-content-center"></div>
+                <div class="qrcode justify-content-center"></div>
+                <input type="text" class="form-control mt-4"  placeholder="Paste your profile URL press enter" onchange="generateQr()" />
+              </div></div>
+            </div>
+            <script>
+              var qrcode = new QRCode(document.querySelector(".qrcode"));
+              qrcode.makeCode("Why did you scanned me?");
+              function generateQr() {
+                qrcode.makeCode(document.querySelector("input").value);
+              }
+            </script>
+  
+          </div>
+          <div class="card  mb-3 mt-4" style="max-width: 25rem;">
             <div class="card-header">Join Our Community</div>
             <div class="card-body">
               <div class="card-title">
