@@ -33,6 +33,7 @@ letter-spacing: 2px;
 margin-top: 25px;
 
 }
+
 .carousel-caption p{
   width:  60%;
  margin-left:0 ;
@@ -82,7 +83,16 @@ color: red;
 
 
 
+.absolute{
+  position: absolute;
+}
+.my-img{
+  position:absolute;
+  z-index: 2;
+  margin-top: 100px;
+   margin-left: 50px;
 
+}
 
 
 .w-100{
